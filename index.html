@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Xanh Mono' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bayon' rel='stylesheet'>
+    <link rel="stylesheet" href="style/style.css">
+    <title>constructivismo</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+
+    body{
+            color: red;
+            font-style: normal;
+            font-weight: normal;
+            background-color: burlywood;
+            font-size: 38px;
+    }
+   
+      
+    .container{  
+        width: auto;
+        margin: auto;  
+    }
+    #t1{
+        align-items: center;
+    }
+    h1{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        
+        font-family: 'Xanh Mono';font-size: 250px;
+        
+      
+    }
+    h2{
+        padding: 1em 0 0 0;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+       
+        color: blue;
+        font-family: 'Bayon';font-size: 80px;
+    }
+    h3{
+        padding: 4em 0 0 0;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+       
+        color: red;
+        font-family: 'Bayon';font-size: 60px;
+    }
+
+    h4{
+        padding: 2em 0em 0 13em;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: red;
+        font-family: 'Xanh Mono';font-size: 80px;
+    }
+   
+    h5{
+        padding: 1.4em 3.5em 0 0;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+       
+        color: blue;
+        font-family: 'Bayon';font-size: 200px; 
+    }
+   
+    #t3{
+        position: absolute;
+        background-color: yellow;
+        left: 0;
+        width: 100%;
+        font-family: 'Bayon';font-size: 60px;
+        transform: rotate(90deg);
+    }
+    h6{
+        width: 100%;
+        text-align: center;
+        color: blue;
+        font-family: 'Bayon';font-size: 40px; 
+    }
+    .rusa{
+        position: absolute;
+        bottom: 12%;
+        right: 36%;
+        
+    }
+   nav{
+    font-family: 'Bayon';font-size: 20px; 
+   }
+  
+    a{
+        position: absolute;
+        z-index: 8;
+    }
+
+    </style>
+    <script>
+         $(document).ready(function(){
+
+           $(".rusa").hide();
+           $("h5").click(function(){ 
+           $(".rusa").show(); 
+            });
+       
+    });
+    </script>
+  
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="t1">
+            <h1>BLOK</h1>
+            <h2>K  U  R  J  E  R    B  L  O  K  U</h2>
+            <h3>REVUE INTERNATIONALE D'AVANGARDE</h3>
+            <h4> Nº6-7 </h4>
+            </div>
+             </header>
+        <main>
+            <div id="t2">
+            <h5> B </h5>
+            </div>
+            <img class="rusa" src="img/chicarusa.jpg" alt="">
+        </main>
+        <nav>
+            <a href="img/800px-Blok_6-7_1924.jpg"> Blok 6-7, ed. Blok. Warsaw, 1924. Kandinsky </a>
+               
+            
+        </nav>
+    </div>
+        
+</body>
+</html>
